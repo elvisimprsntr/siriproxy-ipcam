@@ -6,13 +6,13 @@ Pugme will simply return a random picture of a pug.
 
 Simply add this to your `~/.siriproxy/config.yml`:
 
-  name: 'Pugme'
-  git: 'git://github.com/maddox/SiriProxy-Pugme.git'
+    - name: 'Pugme'
+      git: 'git://github.com/maddox/SiriProxy-Pugme.git'
 
 and restart SiriProxy
 
-  siriproxy bundle
-  rvmsudo siriproxy server
+    siriproxy bundle
+    rvmsudo siriproxy server
 
 # Usage
 **Say:** Pug me
