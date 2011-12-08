@@ -4,7 +4,7 @@ class SiriProxy::Plugin::Pugme < SiriProxy::Plugin
   def initialize(config = {})
   end
 
-  listen_for /pug me/i do |tweetText|
+  listen_for /pug me/i do
 		pugUrl = HTTParty.get("http://pugme.herokuapp.com/random").parsed_response['pug']
 
     say "Here is your pug:"
