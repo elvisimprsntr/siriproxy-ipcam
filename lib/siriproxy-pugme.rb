@@ -5,7 +5,7 @@ class SiriProxy::Plugin::Pugme < SiriProxy::Plugin
   end
 
   listen_for /pug me/i do
-		pugUrl = HTTParty.get("http://pugme.herokuapp.com/random").parsed_response['pug']
+      pugUrl = HTTParty.get("http://pugme.herokuapp.com/random").parsed_response['pug']
 
     say "Here is your pug:"
 
@@ -17,5 +17,7 @@ class SiriProxy::Plugin::Pugme < SiriProxy::Plugin
     ])
     object.views << SiriAnswerSnippet.new([answer])
     send_object object
+
+    request_completed
   end
 end
