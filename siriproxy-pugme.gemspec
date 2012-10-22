@@ -2,13 +2,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "siriproxy-pugme"
+  s.name        = "siriproxy-xxx"
   s.version     = "1.0"
-  s.authors     = ["Jon Maddox"]
-  s.email       = ["jon@jonmaddox.com"]
-  s.homepage    = "http://jonmaddox.com.com"
-  s.summary     = %q{Make Siri fetch you a pug}
-  s.description = %q{This is a very simple plugin for getting random pug pictures from Siri}
+  s.authors     = ["elvisimprsntr"]
+  s.email       = [""]
+  s.homepage    = "https://github.com/elvisimprsntr/SiriProxy-XXX"
+  s.summary     = %q{SiriProxy plugin to push custom images to Siri for lots of laughs!}
+  s.description = %q{SiriProxy plugin to push custom images to Siri for lots of laughs!}
 
   s.rubyforge_project = "siriproxy-pugme"
 
