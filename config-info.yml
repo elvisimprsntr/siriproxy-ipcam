@@ -1,5 +1,5 @@
 
-     - name: 'picturejokes'
-       path: './plugins/siriproxy-picturejokes'
-       webip: 'http://192.168.69.95' #IP address of web server hosting your custom pictures
+    - name: 'picturejokes'
+      path: './plugins/siriproxy-picturejokes'
+      webip: 'http://192.168.69.95' #IP address of web server hosting your custom pictures
   
