@@ -14,7 +14,7 @@ A Bit on Pictures
 - Pictures with 3x2 aspect ratio fill the screen, leaving room for the Siri bar.  
 - iOS seems to support multiple picture formats.  I have have used JPG, JPEG, and PNG files.  Not sure about other formats.  
 - Pictures are antimated differently depending on picture format.  Example: PNG files rotate in.   JPG files will scroll in.  I haven't compared other picture formats.
-- Pictures used in this example were rescalled from low quality images and are intentionally not provided. Refrain from using copyprotected photos.  
+- Pictures used in this example are intentionally not provided. Refrain from using copyprotected photos.  
 
 
 Installation
