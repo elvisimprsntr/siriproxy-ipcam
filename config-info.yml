@@ -1,13 +1,9 @@
 #Example configuration options that can be placed in your main SiriProxy config.yml
-
 ##########################
 #NOTICE: Modifying these options in this file has no effect. You must put them in SiriProxy's config.yml!
 ##########################
 
-     - name: 'Isy99i'
-       path: './plugins/siriproxy-isy99i'
-       host: 'http://192.168.1.1' #IP address of the ISY-99i
-       yourname: 'whatever_you_want_Siri_to_call_you'
-       username: 'ISY-99i_Username'
-       password: 'ISY-99i_Password'
-
+     - name: 'XXX'
+       path: './plugins/siriproxy-xxx'
+       host: 'http://192.168.69.95' #IP address of web server hosting your custom pictures
+  
