@@ -28,7 +28,7 @@ Installation
 
 `cat siriproxy-picturejokes/config-info.yml >> ~/.siriproxy/config.yml`
 
-- Edit the config.yml as required  
+- Edit the config.yml as required.     **Note: Make sure to line up the column spacing.**
 
 `vim ~/.siriproxy/config.yml`
 
