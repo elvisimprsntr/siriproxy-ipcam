@@ -60,6 +60,8 @@ Installation
 Usage
 -----
 
+Use your creativity.
+
 To Do List
 ----------
 
