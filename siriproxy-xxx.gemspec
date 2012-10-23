@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = "1.0"
   s.authors     = ["elvisimprsntr"]
   s.email       = [""]
-  s.homepage    = "https://github.com/elvisimprsntr/SiriProxy-XXX"
+  s.homepage    = "https://github.com/elvisimprsntr/SiriProxy-Funny"
   s.summary     = %q{SiriProxy plugin to push custom images to Siri for lots of laughs!}
   s.description = %q{SiriProxy plugin to push custom images to Siri for lots of laughs!}
 
