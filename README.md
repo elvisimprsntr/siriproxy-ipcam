@@ -18,7 +18,7 @@
 
 `cat siriproxy-picturejokes/config_info.yml >> ~/SiriProxy/config.yml`
 
-6. Edit the config.yml ad required
+6. Edit the config.yml as required
 
 `vim ~/SiriProxy/config.yml`
 
