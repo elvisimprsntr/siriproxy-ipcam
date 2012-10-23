@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+      siriproxy-isy99i (0.0.1)
+      httparty
+      json
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    httparty (0.8.1)
+      multi_json
+      multi_xml
+    json (1.6.3)
+    multi_json (1.0.4)
+    multi_xml (0.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  siriproxy-isy99i!
