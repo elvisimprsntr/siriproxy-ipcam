@@ -1,6 +1,6 @@
 require 'httparty'
 
-class SiriProxy::Plugin::XXX < SiriProxy::Plugin
+class SiriProxy::Plugin::picturejokes < SiriProxy::Plugin
   def initialize(config = {})
   end
 
