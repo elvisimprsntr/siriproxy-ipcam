@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{SiriProxy plugin to push custom images to Siri for lots of laughs!}
   s.description = %q{SiriProxy plugin to push custom images to Siri for lots of laughs!}
 
-  s.rubyforge_project = "siriproxy-pugme"
+  s.rubyforge_project = "siriproxy-funny"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
