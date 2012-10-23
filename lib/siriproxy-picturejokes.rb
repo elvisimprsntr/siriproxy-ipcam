@@ -1,6 +1,6 @@
 require 'siri_objects'
 
-class SiriProxy::Plugin::picturejokes < SiriProxy::Plugin
+class SiriProxy::Plugin::PictureJokes < SiriProxy::Plugin
   attr_accessor :webip
 
   def initialize(config)
