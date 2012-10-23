@@ -8,7 +8,7 @@ Siriproxy-picturejokes is a [SiriProxy] (https://github.com/plamoni/SiriProxy) p
 First, you must have SiriProxy installed and working.  Second, you need to have access to or set up a web server on your SiriProxy server to host the custom pictures you want to push to Siri.  Simply type `apt-get install apache2`.   The default configuration for APACHE will work.   Your pictures need to reside in the `/var/www/` folder.  
 
 
-A Bit on Pictures
+Pictures
 -----------------
 - Pictures that are at least 640 pixels in width with be centered on the screen.  iOS will resize wider pictures to fit.  
 - Pictures with 3x2 aspect ratio fill the screen, leaving room for the Siri bar.  
