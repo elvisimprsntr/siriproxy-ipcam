@@ -16,7 +16,7 @@
 
 - Add the example configuration to the master config.yml  
 
-`cat siriproxy-picturejokes/config_info.yml >> ~/.siriproxy/config.yml`
+`cat siriproxy-picturejokes/config-info.yml >> ~/.siriproxy/config.yml`
 
 - Edit the config.yml as required  
 
