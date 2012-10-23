@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-      siriproxy-isy99i (0.0.1)
+      siriproxy-picturejokes (1.0)
       httparty
       json
 
@@ -19,4 +19,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  siriproxy-isy99i!
+  siriproxy-picturejokes!
