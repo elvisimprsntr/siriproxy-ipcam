@@ -65,7 +65,7 @@ listen_for(/hooker|prostitute|porn star/i) {hooker}
 		if (response =~ /yes|yep|yeah|ok/i)
     			say "OK. Her number went straight to voice mail.  She must be very popular.  While you wait for her to call back, I found sixteen cigar shops fairly close to you."
 		else
-			say "Your probably better off.  You would have had a long wait to get an appointment."
+			say "You are probably better off.  You would have had a long wait to get an appointment."
 		end
     request_completed 
   end
