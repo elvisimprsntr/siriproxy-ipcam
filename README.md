@@ -16,7 +16,7 @@ Third, if you VPN into your home network and configure your iOS device to route 
 
 Pictures
 -----------------
-- Pictures that are at least 640 pixels in width with be centered on the screen.  iOS will resize wider pictures to fit.  
+- Pictures that are at least 640 pixels in width will be centered on the screen.  iOS will resize wider pictures to fit.  
 - Pictures with 3x2 aspect ratio fill the screen, leaving room for the Siri bar.  
 - iOS seems to support multiple picture formats.  I have have used JPG, JPEG, and PNG files.  Not sure about other formats.  
 - Pictures are antimated differently depending on picture format.  Example: PNG files rotate in.   JPG files will scroll in.  I haven't compared other picture formats.
