@@ -10,7 +10,7 @@ First, you must have SiriProxy installed and working.  Second, you need to have 
 
 A Bit on Pictures
 -----------------
-- Pictures that are at least 640 pixels in width with be centered on the screen.  iOS will resize wider photos to fit.  
+- Pictures that are at least 640 pixels in width with be centered on the screen.  iOS will resize wider pictures to fit.  
 - Pictures with 3x2 aspect ratio fill the screen, leaving room for the Siri bar.  
 - iOS seems to support multiple picture formats.  I have have used JPG, JPEG, and PNG files.  Not sure about other formats.  
 - I have noticed pictures are antimated differently depending on picture format.  Example: PNG files rotate in.   JPG files will scroll in.  I haven't compared other picture formats.
