@@ -3,7 +3,7 @@
 #NOTICE: Modifying these options in this file has no effect. You must put them in SiriProxy's config.yml!
 ##########################
 
-     - name: 'AdultJokes'
-       path: './plugins/siriproxy-adultjokes'
+     - name: 'PictureJokes'
+       path: './plugins/siriproxy-picturejokes'
        host: 'http://192.168.69.95' #IP address of web server hosting your custom pictures
   
