@@ -73,7 +73,7 @@ Installation
 Usage
 -----
 
-Use your creativity.
+Limited only by you imagination.
 
 To Do List
 ----------
