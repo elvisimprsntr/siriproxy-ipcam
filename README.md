@@ -38,8 +38,8 @@ Installation
 
 - Copy the repo and the symbolic link to the appropriate install directory    
 
-`cp -rv elvisimprsntr-siriproxy-picturejokes-####### /usr/local/rvm/gems/ruby-1.9.3-p286@SiriProxy/gems/siriproxy-0.3.2/plugins/`  
-`cp -rv siriproxy-picturejokes /usr/local/rvm/gems/ruby-1.9.3-p286@SiriProxy/gems/siriproxy-0.3.2/plugins/`  
+`cp -rv elvisimprsntr-siriproxy-picturejokes-####### /usr/local/rvm/gems/ruby-1.9.3-p286@SiriProxy/gems/siriproxy-0.3.2/plugins/`    
+`cp -rv siriproxy-picturejokes /usr/local/rvm/gems/ruby-1.9.3-p286@SiriProxy/gems/siriproxy-0.3.2/plugins/`    
 
 - Navigate the SiriProxy directory  
 
