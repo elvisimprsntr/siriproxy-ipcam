@@ -7,6 +7,15 @@ Siriproxy-picturejokes is a [SiriProxy] (https://github.com/plamoni/SiriProxy) p
 
 First, you must have SiriProxy installed and working.  Second, you need to have access to or set up a web server on your SiriProxy server to host the custom pictures you want to push to Siri.  This is extremely easy.  Simply type `apt-get install apache2`.   The default configuration for APACHE will work.   Your pictures will need to reside in the `/var/www/` folder.  
 
+
+A Bit on Pictures
+-----------------
+- So the pictures are centered on the screen, use picture that are approximately 640 pixels in width.  iOS will resize wiSiriproxy-isy99i is a [SiriProxy] (https://github.com/plamoni/SiriProxy) plugin that allows you to control home automation devices using the [Universal Devices ISY-99i Series] (http://sales.universal-devices.com) controller through Apple's Siri interface on any iOS device that supports Siri.   It does not require a jailbreak, nor do I endorse doing so.der photos to fit on the screen.  
+- Pictures with 3x2 aspect ratio fill the screen, leaving room for the Siri bar.  
+- iOS seems to support multiple picture formats.  I have have use jpg, jpeg, png files.  Not sure about other formats.  
+- I have notices the pictures will fly in differently depending on the picture format.  Example: .png files rotate in.   .jpg file will scroll in.  I haven't explored using different file formats and how they are antimated.  
+
+
 Installation
 ------------
 
