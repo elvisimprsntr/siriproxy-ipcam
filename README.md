@@ -20,7 +20,7 @@ Installation
 
 `unzip master`
 
-- Create a symbolic link  
+- Create a symbolic link. **Note: Replace #'s as appropriate.**  
 
 `ln -sf elvisimprsntr-siriproxy-picturejokes-####### siriproxy-picturejokes`
 
@@ -36,10 +36,10 @@ Installation
 
 `vim siriproxy-picturejokes\lib\siriproxy-picturejokes.rb`
 
-- Copy the repo and the symbolic link to the appropriate install directory    
+- Copy the repo and the symbolic link to the appropriate install directory.  **Note: Replace #'s as appropriate.  Replace /usr/local/rvm/ with ~/.rvm/ depending on your Linux distribution**     
 
-`cp -rv elvisimprsntr-siriproxy-picturejokes-####### /usr/local/rvm/gems/ruby-1.9.3-p286@SiriProxy/gems/siriproxy-0.3.2/plugins/`    
-`cp -rv siriproxy-picturejokes /usr/local/rvm/gems/ruby-1.9.3-p286@SiriProxy/gems/siriproxy-0.3.2/plugins/`    
+`cp -rv elvisimprsntr-siriproxy-picturejokes-####### /usr/local/rvm/gems/ruby-1.9.3-p###@SiriProxy/gems/siriproxy-0.3.#/plugins/`    
+`cp -rv siriproxy-picturejokes /usr/local/rvm/gems/ruby-1.9.3-p###@SiriProxy/gems/siriproxy-0.3.#/plugins/`    
 
 - Navigate the SiriProxy directory  
 
