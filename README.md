@@ -18,7 +18,7 @@ Pictures
 -----------------
 - Pictures at least 640 pixels in width will be centered on the screen.  iOS will resize wider pictures to fit.  
 - Pictures with 2x3 portrait aspect ratio fill the screen, leaving just enough room for the Siri bar.  
-- iOS seems to support multiple picture formats.  I have not used JPG, JPEG, and PNG files.  Not sure about other formats.  
+- iOS seems to support multiple picture formats.  I have used JPG, JPEG, and PNG files.  Not sure about other formats.  
 - Pictures are antimated differently depending on picture format.  Example: PNG files rotate in.   JPG files will scroll in.  I haven't compared other picture formats.
 - Pictures used in this example are intentionally not provided. Refrain from using copyprotected photos.  
 
