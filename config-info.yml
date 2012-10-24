@@ -1,6 +1,9 @@
 
 
-    - name: 'PictureJokes'
-      path: './plugins/siriproxy-picturejokes'
-      webip: 'http://192.168.69.95' #IP address of web server hosting your custom pictures
+    - name: 'IPCam'
+      path: './plugins/siriproxy-ipcam'
+      camip1: 'http://192.168.69.81' #IP address of IP camera
+      camip2: 'http://192.168.69.82'
+      camip3: 'http://192.168.69.83'
+      camip4: 'http://192.168.69.85'
   

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-      siriproxy-picturejokes (1.0)
+      siriproxy-ipcam (1.0)
       httparty
       json
 
@@ -19,4 +19,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  siriproxy-picturejokes!
+  siriproxy-ipcam!

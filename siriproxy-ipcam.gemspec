@@ -2,13 +2,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "siriproxy-picturejokes"
+  s.name        = "siriproxy-ipcam"
   s.version     = "1.0"
   s.authors     = ["elvisimprsntr"]
   s.email       = [""]
-  s.homepage    = "https://github.com/elvisimprsntr/siriproxy-picturejokes"
-  s.summary     = %q{SiriProxy plugin to push custom images to Siri for lots of laughs!}
-  s.description = %q{SiriProxy plugin to push custom images to Siri for lots of laughs!}
+  s.homepage    = "https://github.com/elvisimprsntr/siriproxy-ipcam"
+  s.summary     = %q{SiriProxy plugin to push IP camera images to Siri}
+  s.description = %q{SiriProxy plugin to push IP camera images to Siri}
 
   s.rubyforge_project = ""
 
