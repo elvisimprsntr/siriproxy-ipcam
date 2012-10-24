@@ -11,7 +11,7 @@ Second, you need to have access to or set up a web server on your SiriProxy serv
 
 Third, if you VPN into your home network and configure your iOS device to route all traffic through the VPN connection you can get lots of laughs at your local pub.  See the Wiki page for links to how I set up a VPN using my home router. 
 
-
+Here is a short demonstration video: http://www.youtube.com/watch?v=jxDZMEd7IDw
 
 
 Pictures
