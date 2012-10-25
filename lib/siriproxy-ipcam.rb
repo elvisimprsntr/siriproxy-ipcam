@@ -16,7 +16,7 @@ class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
     self.camurl2 = config["camurl2"]
     self.camurl3 = config["camurl3"]
     self.camurl4 = config["camurl4"]
-
+    @camauth = {:username => "#{self.camid}", :password => "#{self.campw}"}
 
 end
 
