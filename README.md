@@ -41,7 +41,7 @@ Installation
 
 `vim ~/.siriproxy/config.yml`
 
-- Edit the plugin as you wish.  **NOTE: If you make additional changes, you need to copy the file of simply repeat the next steps.**     
+- Edit the plugin as you wish.  **NOTE: If you make additional changes, you need to copy the file to the install path or simply repeat the next steps.**     
 
 `vim siriproxy-ipcam\lib\siriproxy-ipcam.rb`
 
