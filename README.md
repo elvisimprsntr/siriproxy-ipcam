@@ -85,6 +85,8 @@ To Do List
 - Add authenticated IP camera access.
 - Add ability to launch a live IP camera feed or at least provide a button to do so.
 
+Let me know if you want to collaborate.   
+
 Licensing
 ---------
 
