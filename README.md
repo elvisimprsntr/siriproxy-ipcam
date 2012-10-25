@@ -16,7 +16,7 @@ Cameras
 
 Hopefully the documentation for your IP camera provides the URL for grabbing a still image.  If not, while I have not found a single resource that documents all the make and model IP camera image URLs, this site is a good reference: http://www.ispyconnect.com/sources.aspx
 
-BTW, The iSpy open source Windows security camera software is the best I have come across.  Unfortunately, there are no MacOS or Linux versions. :(   
+BTW, The iSpy open source Windows security camera software is the best I have come across.  Unfortunately, there are no Mac OS X or Linux versions. :(   
 
 Installation
 ------------
