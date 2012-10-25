@@ -2,16 +2,21 @@ require 'siri_objects'
 require 'cgi'
 
 class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
-  attr_accessor :camip1
-  attr_accessor :camip2
-  attr_accessor :camip3
-  attr_accessor :camip4
+  attr_accessor :camurl1
+  attr_accessor :camurl2
+  attr_accessor :camurl3
+  attr_accessor :camurl4
+  attr_accessor :camid
+  attr_accessor :campw
 
   def initialize(config)
-    self.camip1 = config["camip1"]
-    self.camip2 = config["camip2"]
-    self.camip3 = config["camip3"]
-    self.camip4 = config["camip4"]
+    self.camurl1 = config["camurl1"]
+    self.camurl2 = config["camurl2"]
+    self.camurl3 = config["camurl3"]
+    self.camurl4 = config["camurl4"]
+    self.camid = config["camid"]
+    self.campw = config["campw"]
+
 
 end
 
