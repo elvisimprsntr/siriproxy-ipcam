@@ -1,8 +1,7 @@
-
     - name: 'IPCam'
       path: './plugins/siriproxy-ipcam'
-      camurl1: 'http://192.168.69.81' #IP address of IP camera
-      camurl2: 'http://192.168.69.82' #IP address of IP camera
-      camurl3: 'http://192.168.69.83' #IP address of IP camera
-      camurl4: 'http://192.168.69.85' #IP address of IP camera
-  
+      camurl1: 'http://192.168.69.81/cgi/jpg/image.cgi' #URL of IP camera image.
+      camurl2: 'http://192.168.69.82/cgi/jpg/image.cgi' #URL of IP camera image.
+      camurl3: 'http://192.168.69.83/cgi/jpg/image.cgi' #URL of IP camera image.
+      camurl4: 'http://192.168.69.85/Jpeg/CamImg.jpg' #URL of IP camera image.
+ 
