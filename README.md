@@ -7,6 +7,8 @@ Siriproxy-ipcam is a [SiriProxy] (https://github.com/plamoni/SiriProxy) plugin t
 
 First, you must have SiriProxy installed and working.  
 
+Second, you must have at least one IP camera on your local network that supports image/video streaming.  
+
 Here is a short demonstration video: Coming soon…   
 
 Cameras
