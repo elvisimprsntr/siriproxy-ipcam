@@ -1,9 +1,7 @@
 
 
-    - name: 'IPCam'
-      path: './plugins/siriproxy-ipcam'
-      camip1: 'http://192.168.69.81' #IP address of IP camera
-      camip2: 'http://192.168.69.82'
-      camip3: 'http://192.168.69.83'
-      camip4: 'http://192.168.69.85'
+    - name: 'RedEye'
+      path: './plugins/siriproxy-redeye'
+      reip1: 'http://192.168.69.76' #IP address of redeye unit
+      reip2: 'http://192.168.69.77' #IP address of redeye unit
   

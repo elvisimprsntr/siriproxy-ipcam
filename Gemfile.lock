@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-      siriproxy-ipcam (1.0)
+      siriproxy-redeye (1.0)
       httparty
       json
 
@@ -19,4 +19,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  siriproxy-ipcam!
+  siriproxy-redeye!
