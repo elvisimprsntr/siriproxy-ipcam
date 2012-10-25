@@ -69,7 +69,11 @@ Installation
 Usage
 -----
 
-Limited only by your imagination.
+**(Camera name) camera**
+- Pushes camera image to Siri  
+
+**Check cameras**
+- Pushes all camera images to Siri  
 
 To Do List
 ----------
