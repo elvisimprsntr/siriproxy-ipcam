@@ -87,6 +87,7 @@ listen_for(/check cameras/i) {check_cameras}
 	object.views << SiriAnswerSnippet.new([answer])
 
 	send_object object
-  end
+    request_completed
+end
 	
 end
