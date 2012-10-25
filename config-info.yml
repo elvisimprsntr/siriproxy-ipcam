@@ -4,4 +4,6 @@
       camurl2: 'http://192.168.69.82/cgi/jpg/image.cgi' #URL of IP camera image.
       camurl3: 'http://192.168.69.83/cgi/jpg/image.cgi' #URL of IP camera image.
       camurl4: 'http://192.168.69.85/Jpeg/CamImg.jpg' #URL of IP camera image.
+      camid: 'username'
+      campw: 'password'
  
