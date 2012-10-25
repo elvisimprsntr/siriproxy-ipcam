@@ -12,7 +12,7 @@ Here is a short demonstration video: Coming soon…
 Cameras
 -------
 
-I have not found a single resource that documents all the make and model IP camera image URLs, but this site is a good start: http://www.ispyconnect.com/sources.aspx
+Hopefully the documentation for your IP camera provides the URL for grabbing a still image.  If not, while I have not found a single resource that documents all the make and model IP camera image URLs, this site is a good reference: http://www.ispyconnect.com/sources.aspx
 
 Installation
 ------------
