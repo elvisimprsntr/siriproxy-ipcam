@@ -1,5 +1,4 @@
 require 'siri_objects'
-require 'cgi'
 
 class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
   attr_accessor :camid
