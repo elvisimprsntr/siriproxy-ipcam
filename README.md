@@ -73,7 +73,7 @@ Installation
 Usage
 -----
 
-*Ccamera (name)**
+**Camera (name)**
 - Pushes camera image to Siri  
 
 To Do List
