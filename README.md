@@ -73,11 +73,8 @@ Installation
 Usage
 -----
 
-**(Camera name) camera**
+*Ccamera (name)**
 - Pushes camera image to Siri  
-
-**Check cameras**
-- Pushes all camera images to Siri  
 
 To Do List
 ----------
