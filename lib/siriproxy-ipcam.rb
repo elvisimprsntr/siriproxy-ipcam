@@ -10,21 +10,13 @@ class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
   attr_accessor :camurl4
   
   def initialize(config)
-    self.camid = config["camid"]
-    self.campw = config["campw"]
-    self.camurl1 = config["camurl1"]
-    self.camurl2 = config["camurl2"]
-    self.camurl3 = config["camurl3"]
-    self.camurl4 = config["camurl4"]
-    @camauth = {:username => "#{self.camid}", :password => "#{self.campw}"}
-
-@camUrl = Hash.new
-@camUrl["garage"] = "#{self.camurl1}"
-@camUrl["porch"] = "#{self.camurl2}"
-@camUrl["attic"] = "#{self.camurl3}"
-@camUrl["addict"] = "#{self.camurl3}"
-@camUrl["living room"] = "#{self.camurl4}"
-
+    @camauth = {:username => config["camid"], :password => config["campw"]}
+    @camUrl = Hash.new
+    @camUrl["garage"] = config["camurl1"]
+    @camUrl["porch"] = config["camurl2"]
+    @camUrl["attic"] = config["camurl3"]
+    @camUrl["addict"] = config["camurl3"]
+    @camUrl["living room"] = config["camurl4"]
   end
 
   listen_for(/camera (.*)/i) do |camera|
