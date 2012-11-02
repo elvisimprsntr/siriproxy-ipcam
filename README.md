@@ -82,7 +82,7 @@ To Do List
 Let me know if you want to collaborate.   
 
 - Determine if there is a way to pass a hash key/value array in.
-- Add authenticated IP camera access.
+- Add authenticated IP camera access. Not sure if this is even technically possible.
 - Add ability to launch a live IP camera feed or at least provide a button to do so.
 
 Licensing
