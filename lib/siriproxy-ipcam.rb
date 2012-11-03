@@ -4,22 +4,22 @@ require 'siri_objects'
 class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
   attr_accessor :camid
   attr_accessor :campw
+  attr_accessor :webip
   attr_accessor :camurl1
   attr_accessor :camurl2
   attr_accessor :camurl3
   attr_accessor :camurl4
-  attr_accessor :webip
   
   def initialize(config)
     @camAuth = Hash.new
     @camAuth["porch"] = {:http_basic_authentication => [config["camid"], config["campw"]]}
+    @webIp = config["webip"] 
     @camUrl = Hash.new
     @camUrl["garage"] = config["camurl1"]
     @camUrl["porch"] = config["camurl2"]
     @camUrl["attic"] = config["camurl3"]
     @camUrl["addict"] = config["camurl3"]
     @camUrl["living room"] = config["camurl4"]
-    @webIp = config["webip"] 
   end
 
 
