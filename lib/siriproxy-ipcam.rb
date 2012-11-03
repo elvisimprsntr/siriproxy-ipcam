@@ -2,17 +2,17 @@ require 'open-uri'
 require 'siri_objects'
 
 class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
+  attr_accessor :camurls
   attr_accessor :camid
   attr_accessor :campw
   attr_accessor :webip
-  attr_accessor :camurls
   
   def initialize(config = {})
+    @camUrl = Hash.new
+    @camUrl = config["camurls"]
     @camAuth = nil
     @camAuth = {:http_basic_authentication => [config["camid"], config["campw"]]} if config["camid"] 
     @webIp = config["webip"] 
-    @camUrl = Hash.new
-    @camUrl = config["camurls"]
   end
 
   listen_for(/camera (.*)/i) do |camera|
