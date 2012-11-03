@@ -2,7 +2,7 @@
       path: './plugins/siriproxy-ipcam'
       camid: 'username'
       campw: 'password'
-      webip: 'http://192.168.69.95' #IP address of web server hosting your custom pictures
+      webip: 'http://192.168.69.95' #IP address of web server hosting your images
       camurl1: 'http://192.168.69.81/cgi/jpg/image.cgi' #URL of IP camera image.
       camurl2: 'http://192.168.69.82/cgi/jpg/image.cgi' #URL of IP camera image.
       camurl3: 'http://192.168.69.83/cgi/jpg/image.cgi' #URL of IP camera image.
