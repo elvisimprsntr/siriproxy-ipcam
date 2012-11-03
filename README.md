@@ -9,7 +9,7 @@ First, you must have SiriProxy installed and working.
 
 Second, you must have at least one IP camera on your local network that supports image/video streaming.  
 
-Third, in order to support images from IP cameras requiring authentication, you need to have access to or set up a web server on your SiriProxy server to cache the camera image to push to Siri.  Simply type `apt-get install apache2 -y`.   The default configuration for APACHE will work.   SiriProxy will need write permission to the `/var/www/` folder, which if you are running SiriProxy as ROOT this plugin will be able to cache the camera image. 
+Third, in order to support images from IP cameras requiring authentication, you need to have access to or set up a web server on your SiriProxy server to cache the camera image to push to Siri.  Simply type `apt-get install apache2 -y`.   The default configuration for APACHE will work.   SiriProxy will need write permission to the `/var/www/` folder, which if you are running SiriProxy as ROOT will be able to write the camera image. 
 
 Here is a short demonstration video: Coming soon…   
 
