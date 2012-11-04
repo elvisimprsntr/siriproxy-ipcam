@@ -7,7 +7,7 @@ class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
   attr_accessor :webip
   attr_accessor :camurls
   
-  def initialize(config = {})
+  def initialize(config)
     @camAuth = nil
     @camAuth = {:http_basic_authentication => [config["camid"], config["campw"]]} if config["camid"] 
     @webIp = config["webip"] 
