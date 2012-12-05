@@ -5,7 +5,7 @@ About
 -----
 Siriproxy-ipcam is a [SiriProxy] (https://github.com/plamoni/SiriProxy) plugin that allows you to push IP camera images to Apple's Siri interface on any iOS device that supports Siri.   It does not require a jailbreak, nor do I endorse doing so.
 
-First, you must have SiriProxy installed and working.  
+First, you must have SiriProxy installed and working.  [HOW-TOs for Siriprixy] (https://github.com/plamoni/SiriProxy/wiki/Installation-How-Tos) 
 
 Second, you must have at least one IP camera on your local network that supports image/video streaming.  
 
