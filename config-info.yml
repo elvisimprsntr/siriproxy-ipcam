@@ -6,4 +6,3 @@
                  'living room': 'http://192.168.69.85/Jpeg/CamImg.jpg' } #URLs of IP camera image.
       camid: 'username'
       campw: 'password'
-      webip: 'http://192.168.69.95' #IP address of web server to cache camera images
