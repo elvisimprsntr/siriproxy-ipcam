@@ -82,6 +82,10 @@ Usage
 **Camera (name)**
 - Pushes camera image to Siri  
 
+**Check cameras**
+- Pushes all cameras to Siri  
+
+
 To Do List
 ----------
 
