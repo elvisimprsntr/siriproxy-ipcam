@@ -35,14 +35,14 @@ class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
 					file.puts f.read
 				end
 			end
-  			push_image(camera, @webIp + "/" + camera.gsub(/\s+/, "") + ".jpg")
+  			push_image(camera.capitalize, @webIp + "/" + camera.gsub(/\s+/, "") + ".jpg")
 		else
-			push_image(camera, @camUrl[camera]["url"])
+			push_image(camera.capitalize, @camUrl[camera]["url"])
 		end
 	else
 		say "Sorry, I could not find a camera named #{camera}."
 		say "Here is the list of cameras."
-		@camUrl.each_key {|camera| say camera}
+		@camUrl.each_key {|camera| say camera.capitalize}
 		camera = ask "Which camera would you like to view?"  
 		check_camera(camera.downcase.strip)
 	end
