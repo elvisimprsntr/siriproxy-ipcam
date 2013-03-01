@@ -10,8 +10,6 @@ class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
   def initialize(config = {})
     @camUrl = Hash.new
     @camUrl = config["camurls"]
-    @camAuth = nil
-    @camAuth = {:http_basic_authentication => [config["camid"], config["campw"]]} if config["camid"] 
     @webIp = "http://" + UDPSocket.open {|s| s.connect("255.255.255.0", 1); s.addr.last}
   end 
   
@@ -30,17 +28,17 @@ class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
 ########## Actions   
  
   def check_camera(camera)
-	cameraurl = @camUrl[camera]
-	unless cameraurl.nil?
-		unless @camAuth.nil?
-			open(cameraurl, @camAuth) do |f|
-				File.open("/var/www/" + camera.gsub(/\s+/, "") + ".jpg","wb") do |file|
+	if @camUrl.has_key?(camera)
+		if @camUrl[camera].has_key?("id")
+			open(@camUrl[camera]["url"], :http_basic_authentication => [@camUrl[camera]["id"], @camUrl[camera]["pw"]]) do |f|
+				File.open("/var/www/" + camera.gsub(/\s+/, "") + ".jpg", "wb") do |file|
 					file.puts f.read
-  				end
+				end
 			end
-			cameraurl = @webIp + "/" + camera.gsub(/\s+/, "") + ".jpg"
+  			push_image(camera, @webIp + "/" + camera.gsub(/\s+/, "") + ".jpg")
+		else
+			push_image(camera, @camUrl[camera]["url"])
 		end
-		push_image(camera, cameraurl)	
 	else
 		say "Sorry, I could not find a camera named #{camera}."
 		say "Here is the list of cameras."
