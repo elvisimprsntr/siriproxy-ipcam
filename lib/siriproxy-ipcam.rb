@@ -4,8 +4,6 @@ require 'siri_objects'
 
 class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
   attr_accessor :camurls
-  attr_accessor :camid
-  attr_accessor :campw
   
   def initialize(config = {})
     @camUrl = Hash.new
