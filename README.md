@@ -24,24 +24,19 @@ Hopefully the documentation for your IP camera provides the URL for grabbing a s
 
 BTW, The Windows open source [iSpy security camera software] (http://www.ispyconnect.com) is the best I have come across.  While there are no Mac OS X or Linux versions, the source code is avaiable and they are adding support mobile device HTML5 access.  
 
-Installation
-------------
+Installation (New for SiriProxy 0.5.0+)
+---------------------------------------
 
-- Navigate to the SiriProxy plugins directory  
 
-`cd ~/SiriProxy/plugins/`
+- Create a plugins directory  
+
+`mkdir ~/plugins`  
+
+`cd ~/plugins/` 
 
 - Get the latest repo   
 
-`wget "https://github.com/elvisimprsntr/siriproxy-ipcam/zipball/master"`
-
-- Unzip the repo  
-
-`unzip master`
-
-- Create a symbolic link. **Note: Replace #'s as appropriate.**  
-
-`ln -sf elvisimprsntr-siriproxy-ipcam-####### siriproxy-ipcam`
+`git clone git://github.com/elvisimprsntr/siriproxy-ipcam`
 
 - Add the example configuration to the master config.yml  
 
@@ -55,26 +50,14 @@ Installation
 
 `vim siriproxy-ipcam\lib\siriproxy-ipcam.rb`
 
-- Copy the repo and the symbolic link to the appropriate install directory.  **Note: Replace #'s as appropriate.  Replace /usr/local/rvm/ with ~/.rvm/ depending on your Linux distribution**     
-
-`cp -rv elvisimprsntr-siriproxy-ipcam-####### /usr/local/rvm/gems/ruby-1.9.3-p###@SiriProxy/gems/siriproxy-0.3.#/plugins/`    
-`cp -rv siriproxy-ipcam /usr/local/rvm/gems/ruby-1.9.3-p###@SiriProxy/gems/siriproxy-0.3.#/plugins/`    
-
-- Navigate the SiriProxy directory  
-
-`cd ~/SiriProxy`
-
 - Bundle  
 
 `siriproxy bundle`
 
-- Install  
+- Run (Ref: https://github.com/plamoni/SiriProxy#set-up-instructions)  
 
-`bundle install`
+`[rvmsudo] siriproxy server [-d ###.###.###.###] [-u username]`
 
-- Run  
-
-`siriproxy server`
 
 Usage
 -----

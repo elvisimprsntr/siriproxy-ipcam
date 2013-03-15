@@ -1,5 +1,5 @@
     - name: 'IPCam'
-      path: './plugins/siriproxy-ipcam'
+      path: '~/plugins/siriproxy-ipcam'
       camurls: {'garage': {'url': 'http://192.168.69.81/cgi/jpg/image.cgi'},
                 'porch': {'url': 'http://192.168.69.82/cgi/jpg/image.cgi', 'id': 'username', 'pw': 'password'},
                 'attic': {'url': 'http://192.168.69.83/cgi/jpg/image.cgi'},
