@@ -13,6 +13,8 @@ Third, in order to support images from IP cameras requiring authentication, you 
 
 [Watch Demo Video](http://www.youtube.com/watch?v=YZHbO-sdUOY) 
 
+[![Video](http://img.youtube.com/vi/YZHbO-sdUOY/hqdefault.jpg)](http://www.youtube.com/watch?v=YZHbO-sdUOY)
+
 I have received offers to make a donation to help offset the cost of hardware and for my time.  If you feel so inclined you can donate thru PayPal.  
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4TRSKPQV8HCFY)
