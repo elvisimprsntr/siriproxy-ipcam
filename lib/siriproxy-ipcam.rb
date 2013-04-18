@@ -13,11 +13,16 @@ class SiriProxy::Plugin::IPCam < SiriProxy::Plugin
   
 ########## Commands   
 
-  listen_for(/camera (.*)/i) do |camera|
+  listen_for /(show me|snapshot for) the (.*) camera/i do |keyword, camera|
 	check_camera camera.downcase.strip
 	request_completed
   end
-  
+
+  listen_for /camera(?: of)?(?: for)?(?: the)? (.*)/i do |camera|
+        check_camera camera.downcase.strip
+        request_completed
+  end
+
   listen_for(/check cameras/i) do 
 	@camUrl.each_key {|camera| check_camera(camera)} 
 	request_completed
